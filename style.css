@@ -50,3 +50,31 @@ section.exp-area{
 .exp-post{
     display: flex;
 }
+.exp-post div{
+    box-shadow: 5px 7px 40px rgb(128, 128, 128);
+    padding: 30px;
+}
+h2{
+    font-size: 40px;
+}
+.exp-post h3{
+    color: rgb(255,165,0);
+}
+.exp-post .full-box-txt{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+.exp-post .baby-box-txt{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+section.exp-area{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer p{
+    text-align: center;
+}
